@@ -22,7 +22,6 @@ if (count == 4 ) {
 }
 
 for (var i = 0; i < items_content.length; i++) {
-  console.log(items_content[i]);
   items_content[i].style.left = `${move}%`;
 }
 for (var i = 0; i < dots.children.length; i++) {
